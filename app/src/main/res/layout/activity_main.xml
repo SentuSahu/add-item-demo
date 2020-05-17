@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="114dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="182dp"
+            android:layout_toStartOf="@+id/b1"
+            android:gravity="center"
+            android:text="Roti"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:text="Add"
+            android:textSize="24dp" />
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="114dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="185dp"
+            android:layout_toStartOf="@+id/b1"
+            android:gravity="center"
+            android:text="Dahi"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="91dp"
+            android:layout_marginEnd="13dp"
+            android:text="Add"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorAccent"
+            android:text="Checkout"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+</ScrollView>

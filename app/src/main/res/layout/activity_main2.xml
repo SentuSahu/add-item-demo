@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="-106dp"
+            android:layout_toStartOf="@+id/t2"
+            android:text="dn bhn"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="103dp"
+            android:text="1  X  20 =  20"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="-100dp"
+            android:layout_toStartOf="@+id/t2"
+            android:text="dn bhn"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="113dp"
+            android:layout_marginEnd="103dp"
+            android:text="1  X  120 =  120"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginBottom="50dp"
+            android:text="Payment"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
